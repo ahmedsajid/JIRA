@@ -13,7 +13,7 @@ Python library for interacting with JIRA via REST APIs. https://pypi.python.org/
 Webhook needs to be defined in JSD: https://developer.atlassian.com/jiradev/jira-apis/webhooks
 Also see defining webhook as a post function to workflow: https://developer.atlassian.com/jiradev/jira-apis/webhooks#Webhooks-Addingawebhookasapostfunctiontoaworkflow
 
-This solves the following feature requests.
+This implements the following feature requests.
 1. https://jira.atlassian.com/browse/JSDSERVER-4519
 2. https://jira.atlassian.com/browse/JSDSERVER-2073
 
