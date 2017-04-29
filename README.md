@@ -8,7 +8,10 @@ webhook.py is python script runs as a webserver on a port and accepts json data 
 - If triggered manually inviting customers, add the customers to appropriate groups & organizations. 
 
 Webhook needs to be defined in JSD: https://developer.atlassian.com/jiradev/jira-apis/webhooks
+Also see defining webhook as a post function to workflow: https://developer.atlassian.com/jiradev/jira-apis/webhooks#Webhooks-Addingawebhookasapostfunctiontoaworkflow
 
 This solves the following feature requests.
 1. https://jira.atlassian.com/browse/JSDSERVER-4519
 2. https://jira.atlassian.com/browse/JSDSERVER-2073
+
+This by no means is perfect. Any changes and improvements are welcome.
