@@ -7,7 +7,7 @@ webhook.py is python script runs as a webserver on a port and accepts json data 
 - If triggered by approving access request type in JSD, invite the user to project and resolve the ticket
 - If triggered manually inviting customers, add the customers to appropriate groups & organizations. 
 
-_Requirement_
+**Requirement**
 Python library for interacting with JIRA via REST APIs. https://pypi.python.org/pypi/jira/
 
 Webhook needs to be defined in JSD: https://developer.atlassian.com/jiradev/jira-apis/webhooks
