@@ -15,18 +15,22 @@ from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 import pycurl, requests
 from requests.auth import HTTPBasicAuth
 
+# Change the following specific fo your environment
+# Port for webhook to listen on
 port = 8888
+# URL to JSD
 jira_url='https://your.jira.com'
+# JIRA API User credentials
 jira_user='adminuser'
 jira_pass='password'
+# Specific JIRA Project for searching organizations
+project_key = 'PROJECTNAME'
+# User with domain.com to be added to list of groups specified
+groups = {'domain.com' : ['group1','group2']}
 
 header = {
     'Content-Type': 'application/json'
 }
-
-groups = {'domain.com' : ['group1','group2']}
-
-project_key = 'PROJECTNAME'
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
